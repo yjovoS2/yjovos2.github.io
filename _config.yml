@@ -21,8 +21,8 @@ user:
   name: 예잔이
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
-  job: a category-centric theme
-  aboutme: true # comment this out if you don't need the 'about' page.
+  job: jobless
+  aboutme: false # comment this out if you don't need the 'about' page.
 
 exclude:
   - README.md
