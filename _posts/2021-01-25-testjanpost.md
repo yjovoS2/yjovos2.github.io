@@ -1,5 +1,4 @@
 ---
-layout: Post
 title: Test Post
 categories: [Yejan22]
 comments: true
