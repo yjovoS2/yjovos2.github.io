@@ -18,9 +18,9 @@ google_analytics: #UA—XXXXXXXX-X
 disqus_shortname: #disqus shortname
 
 user:
-  name: 예잔이
-  pic: /assets/img/cat.jpg
-  picAlt: "catbook"
+  name: YJOVOS2
+  pic: /assets/img/profile.jpg
+  picAlt: "YJOVOS2"
   job: jobless
   aboutme: false # comment this out if you don't need the 'about' page.
 
