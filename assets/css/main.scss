@@ -551,6 +551,9 @@ img {
     line-height: 1;
     margin-left: 0.3rem;
 
+    font-size: 1rem;
+    font-weight: 100;
+
     a {
         color: var(--nav_font);
 
@@ -558,6 +561,11 @@ img {
         &:focus {
             color: var(--nav_font_hover);
         }
+    }
+
+    @include mobile-only {
+        text-align: center;
+        font-size: 1rem;
     }
 }
 
