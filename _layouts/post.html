@@ -16,19 +16,18 @@ layout: page
       {% endif %}
     </p>
     {% endif %}
-
   </div>
   <div class="post_data">
     {% if page.date %}
     <span class="post_date">{{ page.date | date: "%b %-d, %Y" }}</span>
     {% endif %}
-    <p class="post_tags">
+    <span class="post_tags">
       {% if page.tags %}
         {% for tag in page.tags %}
           <span class="tag">{{ tag }} </span>
         {% endfor %}
       {% endif %}
-    </p>
+    </span>
   </div>
   <div class="post_content">
     {{ content }}
