@@ -549,7 +549,6 @@ img {
 
 .post_categories {
     line-height: 1;
-    margin-left: 0.3rem;
 
     a {
         color: var(--nav_font);
@@ -558,6 +557,10 @@ img {
         &:focus {
             color: var(--nav_font_hover);
         }
+    }
+
+    @include mobile-only {
+        text-align: center;
     }
 }
 

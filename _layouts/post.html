@@ -9,7 +9,7 @@ layout: page
     {% endif %}
     {% if page.categories %}
     <p class="post_categories">
-      &raquo;&nbsp;{% for cat_name in page.categories %}&nbsp;&laquo;
+      &raquo; {% for cat_name in page.categories %}
       <a href="{{ site.baseurl }}/categories/{{ cat_name }}">{{ cat_name }}</a>{% if forloop.last == false %},
       {% endif %}{% endfor %}
     </p>
@@ -22,7 +22,7 @@ layout: page
     <p class="post_tags">
       {% if page.tags %}
         {% for tag in page.tags %}
-          <span class="tag">{{ tag }}&nbsp;</span>
+          <span class="tag">{{ tag }} </span>
         {% endfor %}
       {% endif %}
     </p>
