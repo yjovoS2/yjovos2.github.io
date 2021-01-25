@@ -5,15 +5,18 @@ layout: page
 <div class="post">
   <div>
     {% if page.title %}
-    <p class="post_title">{{ page.title }}</p>
-    {% endif %}
-    {% if page.categories %}
-    <p class="post_categories">
-      &raquo; {% for cat_name in page.categories %}
-      <a href="{{ site.baseurl }}/categories/{{ cat_name }}">{{ cat_name }}</a>{% if forloop.last == false %},
-      {% endif %}{% endfor %}
+    <p class="post_title">
+      {{ page.title }}
+      {% if page.categories %}
+      <span class="post_categories">
+        &raquo; {% for cat_name in page.categories %}
+        <a href="{{ site.baseurl }}/categories/{{ cat_name }}">{{ cat_name }}</a>{% if forloop.last == false %},
+        {% endif %}{% endfor %}
+      </span>
+      {% endif %}
     </p>
     {% endif %}
+
   </div>
   <div class="post_data">
     {% if page.date %}
