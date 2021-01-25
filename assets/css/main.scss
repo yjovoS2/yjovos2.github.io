@@ -531,16 +531,6 @@ img {
     }
 }
 
-.post_data {
-    margin-top: -0.5rem;
-    margin-bottom: 3.5rem;
-
-    @include mobile-only {
-        text-align: center;
-        margin-top: -1rem;
-    }
-}
-
 .post_categories {
     line-height: 1;
     margin-left: 0.3rem;
@@ -562,10 +552,23 @@ img {
     }
 }
 
+.post_data {
+    margin-top: -0.5rem;
+    margin-bottom: 3.5rem;
+
+    @include mobile-only {
+        margin-top: -1rem;
+    }
+}
+
 .post_date {
     color: var(--post_date);
     letter-spacing: -0.5px;
     line-height: 1;
+
+    @include mobile-only {
+        text-align: right;
+    }
 }
 
 .post_tags {
