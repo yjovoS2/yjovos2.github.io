@@ -557,6 +557,7 @@ img {
     margin-bottom: 3.5rem;
 
     @include mobile-only {
+        text-align: center;
         margin-top: -1rem;
     }
 }
@@ -565,10 +566,7 @@ img {
     color: var(--post_date);
     letter-spacing: -0.5px;
     line-height: 1;
-
-    @include mobile-only {
-        text-align: right;
-    }
+    margin-left: 0.5rem;
 }
 
 .post_tags {
