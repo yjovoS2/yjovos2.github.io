@@ -564,9 +564,9 @@ img {
 .post_tags {
   line-height: 1;
   margin-left: 0.3rem;
-  .tag{
+  span {
     color: var(--tag_font);
-    
+
     &:hover,
     &:focus {
         color: var(--tag_font_hover);
