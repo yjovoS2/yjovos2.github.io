@@ -541,12 +541,6 @@ img {
     }
 }
 
-.post_date {
-    color: var(--post_date);
-    letter-spacing: -0.5px;
-    line-height: 1;
-}
-
 .post_categories {
     line-height: 1;
     margin-left: 0.3rem;
@@ -564,13 +558,20 @@ img {
     }
 
     @include mobile-only {
-        text-align: center;
         font-size: 1rem;
     }
 }
 
+.post_date {
+    color: var(--post_date);
+    letter-spacing: -0.5px;
+    line-height: 1;
+}
+
 .post_tags {
   line-height: 1;
+  margin-top: -0.5rem;
+
   .tag {
     color: var(--tag_font);
 
