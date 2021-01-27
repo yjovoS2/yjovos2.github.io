@@ -17,11 +17,11 @@
     --archive_font: #000;
     --archive_title: #46a891;
     --archive_title_hover: #87CDBD;
-    --name_font: #FFAA00;
-    --job_font: #003845;
-    --nav_font: #8d7edc;
-    --nav_font_hover: #D4CEF2;
-    --tag_font: #FF5555;
+    --name_font: #FD7777;
+    --job_font: #DCCCCC;
+    --nav_font: #FFEA72;
+    --nav_font_hover: #FFFAD7;
+    --tag_font: #FD7272;
     --tag_background: #FAFAFA;
     --tag_font_hover: #FFAAAA;
     --tag_background_hover: #FDFDFD;
@@ -48,17 +48,17 @@
     --archive_font: #CACCCE;
     --archive_title: #46a891;
     --archive_title_hover: #87CDBD;
-    --name_font: #FFAA00;
-    --job_font: #CACCCE;
-    --nav_font: #8d7edc;
-    --nav_font_hover: #D4CEF2;
-    --tag_font: #FF5555;
+    --name_font: #FD7777;
+    --job_font: #DCCCCC;
+    --nav_font: #FFEA72;
+    --nav_font_hover: #FFFAD7;
+    --tag_font: #FD7272;
     --tag_background: #1D2427;
     --tag_font_hover: #FFAAAA;
     --tag_background_hover: #3D4047;
     --shadow_color: rgba(0, 0, 0, 1);
-    --post_title: #46a891;
-    --post_date: #e9ead7;
+    --post_title: #FEFAFA;
+    --post_date: #EEE9E9;
     --post_text: #CACCCE;
     --post_h3: #fff;
     --post_link: #8d7edc;
@@ -584,7 +584,7 @@ img {
     background-color: var(--tag_background);
     padding: .1em .4em;
     border-radius: 5px;
-    margin-right: 0.5rem;
+    margin-left: 0.35rem;
     font-size: .85rem;
 
     &:hover,
@@ -596,7 +596,7 @@ img {
 }
 
 .post_content {
-    margin-top: 1.5rem;
+    padding-top: 1.5rem;
     font-size: 0.95rem;
     line-height: 1.5rem;
     color: var(--post_text);
@@ -652,7 +652,7 @@ img {
         font-size: .85rem;
     }
 
-    p code {
+    p,li code {
         background-color: var(--inlinecode_background);
     }
 
