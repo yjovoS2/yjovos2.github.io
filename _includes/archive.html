@@ -37,9 +37,11 @@
 
   <ul>
     <li>
-      <time class='archive_date' datetime='{{ post.date | date_to_xmlschema }}'>
-        {{ post.date | date: "%-m/%-d" }}
-      </time>
+      <div class='archive_date'>
+        <time datetime='{{ post.date | date_to_xmlschema }}'>
+          {{ post.date | date: "%-m/%-d" }}
+        </time>
+      </div>
       <div class='archive_title'>
         <a href='{{ post.url | relative_url }}'>
           {{ post.title | escape }}
