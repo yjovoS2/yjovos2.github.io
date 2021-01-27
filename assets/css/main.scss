@@ -696,7 +696,7 @@ img {
         font-weight: 700;
         line-height: 1.5em;
         padding: 0.5rem 0.8rem;
-        background: #ffaaaa50;
+        background: #ffaaaa;
         pointer-events: none;
         transition: opacity 200ms, top 200ms;
     }
@@ -711,7 +711,7 @@ img {
         width: 0;
         height: 0;
         border: solid transparent 5px;
-        border-bottom-color: #ffaaaa50;
+        border-bottom-color: #ffaaaa;
         transition: opacity 200ms, top 200ms;
     }
 
