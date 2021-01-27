@@ -15,12 +15,12 @@
     --header_bg: #fafafa;
     --content_bg: #fff;
     --archive_font: #000;
-    --archive_title: #46a891;
-    --archive_title_hover: #87CDBD;
+    --archive_title: #FD6765;
+    --archive_title_hover: #FDC7C5;
     --name_font: #FD7777;
     --job_font: #DCCCCC;
-    --nav_font: #FFEA72;
-    --nav_font_hover: #FFFAD7;
+    --nav_font: #FFA7A5;
+    --nav_font_hover: #FFD7D5;
     --tag_font: #FD7272;
     --tag_background: #FAFAFA;
     --tag_font_hover: #FFAAAA;
@@ -46,12 +46,12 @@
     --header_bg: #24292E;
     --content_bg: #2F3437;
     --archive_font: #CACCCE;
-    --archive_title: #46a891;
-    --archive_title_hover: #87CDBD;
+    --archive_title: #FDD765;
+    --archive_title_hover: #FDEEA5;
     --name_font: #FD7777;
     --job_font: #DCCCCC;
-    --nav_font: #FFEA72;
-    --nav_font_hover: #FFFAD7;
+    --nav_font: #FFA7A5;
+    --nav_font_hover: #FFD7D5;
     --tag_font: #FD7272;
     --tag_background: #1D2427;
     --tag_font_hover: #FFAAAA;
@@ -584,7 +584,7 @@ img {
     background-color: var(--tag_background);
     padding: .1em .4em;
     border-radius: 5px;
-    margin-left: 0.35rem;
+    margin-left: 0.1rem;
     font-size: .85rem;
 
     &:hover,
@@ -650,10 +650,6 @@ img {
         border-radius: 5px;
         font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
         font-size: .85rem;
-    }
-
-    p,li code {
-        background-color: var(--inlinecode_background);
     }
 
     pre code {
