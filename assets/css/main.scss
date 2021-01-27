@@ -273,7 +273,7 @@ img {
 
 .archive_title {
     word-wrap: normal;
-    
+
     @include breakpoint(medium) {
         max-width: 80%;
     }
@@ -438,10 +438,6 @@ img {
 
     @include mobile-only {
         text-align: center;
-    }
-
-    .url {
-        padding-top: 1.5rem;
     }
 }
 
