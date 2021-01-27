@@ -22,6 +22,7 @@ user:
   pic: /assets/img/profile.jpg
   picAlt: "YJOVOS2"
   job: jobless
+  message: 🖼
   aboutme: false # comment this out if you don't need the 'about' page.
   github_url: https://github.com/yjovos2
 
