@@ -570,15 +570,17 @@ img {
     color: var(--post_date);
     letter-spacing: -0.5px;
     line-height: 1;
+    float: right;
 }
 
 .post_tags {
   line-height: 1;
+    float: left;
 
   .tag {
     color: var(--tag_font);
-    padding: .1em .4em;
     background-color: var(--tag_background);
+    padding: .1em .4em;
     border-radius: 5px;
 
     &:hover,
