@@ -42,7 +42,7 @@
           {{ post.title | escape }}
         </a>
         <time class='archive_date' datetime='{{ post.date | date_to_xmlschema }}'>
-          {{ post.date | date: "%-m/%-d" }}
+          {{ post.date | date: "%Y.%-m.%-d." }}
         </time>
       </div>
     </li>
