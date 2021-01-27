@@ -13,18 +13,13 @@
     <span class="header_mes">{{ site.user.message }}</span>
 
     <nav class="nav">
+      {% if site.user.aboutme %}
       <ul class="nav_list">
-        {% if site.user.aboutme %}
         <li class="nav_item">
           <a href="{{ site.baseurl }}/aboutme.html">about</a>
         </li>
-        {% endif %}
-        {% if site.user.github_url %}
-        <li class="nav_item">
-          <a href="{{ site.user.github_url }}" target="_blank">Github</a>
-        </li>
-        {% endif %}
       </ul>
+      {% endif %}
       {% for category in site.categories %}
       {% capture cat_name %}{{ category | first }}{% endcapture %}
       <ul class="nav_list">
@@ -34,6 +29,13 @@
         </li>
       </ul>
       {% endfor %}
+      <ul class="nav_list url">
+        {% if site.user.github_url %}
+        <li class="nav_item">
+          <a href="{{ site.user.github_url }}" target="_blank">Github</a>
+        </li>
+        {% endif %}
+      </ul>
     </nav>
   </div>
 

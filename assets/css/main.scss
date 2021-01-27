@@ -437,6 +437,10 @@ img {
     @include mobile-only {
         text-align: center;
     }
+
+    .url {
+        padding-top: 1.5rem;
+    }
 }
 
 .nav_item {
