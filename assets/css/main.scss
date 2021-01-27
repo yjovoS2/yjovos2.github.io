@@ -265,6 +265,7 @@ img {
 
 .archive_date {
     text-transform: uppercase;
+    float: right;
 
     @include breakpoint(medium) {
         float: right;
@@ -365,6 +366,7 @@ img {
 .header_job {
     display: inline-block;
     margin-top: .1rem;
+    margin-left: .3rem;
     color: var(--job_font);
     font-size: 0.75em;
     font-weight: 700;
