@@ -23,6 +23,7 @@ user:
   picAlt: "YJOVOS2"
   job: jobless
   aboutme: false # comment this out if you don't need the 'about' page.
+  github_url: https://github.io/yjovos2
 
 exclude:
   - README.md
@@ -35,10 +36,10 @@ defaults:
       type: posts
     values:
       layout: post
-      comment: true   
+      comment: true
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: kramdown 
+markdown: kramdown
 
 # Filtering Content
 show_drafts: null
