@@ -22,7 +22,9 @@
     --nav_font: #8d7edc;
     --nav_font_hover: #D4CEF2;
     --tag_font: #FF5555;
+    --tag_background: #DDDDDD;
     --tag_font_hover: #FFAAAA;
+    --tag_background_hover: #FFFFFF;
     --shadow_color: rgba(160, 160, 160, 0.05);
     --post_title: #003845;
     --post_date: #003845;
@@ -575,10 +577,14 @@ img {
 
   .tag {
     color: var(--tag_font);
+    padding: .1em .4em;
+    background-color: var(--tag_background);
+    border-radius: 5px;
 
     &:hover,
     &:focus {
         color: var(--tag_font_hover);
+        background-color: var(--tag_background_hover);
     }
   }
 }
@@ -634,7 +640,7 @@ img {
     code {
         color: var(--inlinecode_text);
         padding: .1em .4em;
-        background-color: var(--inlinecode_background)
+        background-color: var(--inlinecode_background);
         border-radius: 5px;
         font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
         font-size: .85rem;
