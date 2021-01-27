@@ -585,6 +585,7 @@ img {
     padding: .1em .4em;
     border-radius: 5px;
     margin-right: 0.5rem;
+    font-size: .85rem;
 
     &:hover,
     &:focus {
@@ -649,7 +650,7 @@ img {
         font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
         font-size: .85rem;
 
-        .highlighter-rouge {
+        .language-plaintext {
             background-color: var(--inlinecode_background);
         }
     }
