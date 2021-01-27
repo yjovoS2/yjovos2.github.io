@@ -15,6 +15,7 @@
     --header_bg: #fafafa;
     --content_bg: #fff;
     --archive_font: #000;
+    --archive_date: #888;
     --archive_title: #FD6765;
     --archive_title_hover: #FDC7C5;
     --name_font: #FD7777;
@@ -46,6 +47,7 @@
     --header_bg: #24292E;
     --content_bg: #2F3437;
     --archive_font: #CACCCE;
+    --archive_date: #888;
     --archive_title: #FD6765;
     --archive_title_hover: #FDC7C5;
     --name_font: #FD7777;
@@ -266,6 +268,7 @@ img {
 .archive_date {
     text-transform: uppercase;
     float: right;
+    color: var(--archive_date);
 
     @include breakpoint(medium) {
         float: right;
